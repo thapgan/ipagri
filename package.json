@@ -1,0 +1,22 @@
+{
+  "name": "ipagri",
+  "version": "1.0.0",
+  "description": "IPAgriLab CLI",
+  "main": "index.js",
+  "bin": {
+    "ipagri": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "keywords": ["Scaffolding Tool"],
+  "author": "thapgan",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^6.2.1",
+    "ejs": "^3.1.5",
+    "fs-extra": "^9.0.1",
+    "ora": "^5.1.0",
+    "shelljs": "^0.8.4"
+  }
+}
